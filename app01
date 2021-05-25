@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>Hello World!</p>
+	<p>Hola Mundo!</p>
+    <p>The DOM is very useful.</p>
+    <p>This example demonstrates the <b>getElementsByTagName</b> method</p>
+    <p id="demo"></p>
+    <script>
+	//var x declara una variable de nombre x
+	//document hace referencia al documento HTML
+	//getElementByTagName recupera un elemento por su nombre de etiqueta
+      var x = document.getElementsByTagName("p");
+	//("p") el nombre del elemento de etiqueta que estamos buscando es "p"
+      document.getElementById("demo").innerHTML = 'The second paragraph (index 1) is: ' + x[1].innerHTML;
+    </script>
+  </body>
+</html>
